@@ -1,5 +1,7 @@
 import { Text, View } from "react-native"
 import SecondAssignment from "../assignment/SecondAssignment"
+import Expression from "./Expression"
+import ThirdAssignment from "../assignment/ThirdAssignment"
 // import Index from "./Index"
 
 
@@ -8,7 +10,9 @@ const App = () => {
         <View>
             {/* <Index/> */}
             <Text className="text-yellow-800">Hello</Text>
-            <SecondAssignment/>
+            {/* <SecondAssignment/> */}
+            {/* <Expression/> */}
+            <ThirdAssignment/>
         </View>
     )
 }
