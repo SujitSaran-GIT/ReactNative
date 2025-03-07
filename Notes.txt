@@ -18,3 +18,7 @@ Props
 -----------------
 Props / Properties are arguments passed into Components
 Props are passed to components via HTML attributes
+
+Conditional Rendering 
+-------------------------
+Conditional Rendering in React Native works the same way as conditional works in JavaScript. You can use JavaScrpt operators like if & or Ternary to represent the current state and let React Native update the UI to match them

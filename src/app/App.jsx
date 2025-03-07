@@ -10,6 +10,7 @@ import ArrayOfObjects from "./ArrayOfObjects"
 import FourthAssignment from "../assignment/FourthAssignment"
 import Props from "./Props"
 import FifthAssignment from "../assignment/FifthAssignment"
+import ConditionalRendering from "./ConditionalRendering"
 
 
 const App = () => {
@@ -25,10 +26,12 @@ const App = () => {
         //     </ScrollView>
             // <DataList/>
             // <ArrayOfObjects/>
-            // <FourthAssignment/>
+            // <FourthAssignment />
             // <Props/>
-            <FifthAssignment/>
+            // <FifthAssignment/>
+            <ConditionalRendering/>
         // </SafeAreaView>
     )
 }
+
 export default App
