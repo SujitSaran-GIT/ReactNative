@@ -9,3 +9,7 @@ JSX allows us to write HTML in React Native. JSX makes it easier to write & add 
 Expression In JSX
 ---------------------
 With JSX you can write expression inside curly braces. The expressions can be a variable, or property, or any other valid Javascript expression. JSX will execute the expression and return the result
+
+FlatList
+------------
+FlatList will iterate all over the data and render the list of the data
