@@ -8,6 +8,8 @@ import Index from "./Index"
 import DataList from "./DataList"
 import ArrayOfObjects from "./ArrayOfObjects"
 import FourthAssignment from "../assignment/FourthAssignment"
+import Props from "./Props"
+import FifthAssignment from "../assignment/FifthAssignment"
 
 
 const App = () => {
@@ -23,7 +25,9 @@ const App = () => {
         //     </ScrollView>
             // <DataList/>
             // <ArrayOfObjects/>
-            <FourthAssignment/>
+            // <FourthAssignment/>
+            // <Props/>
+            <FifthAssignment/>
         // </SafeAreaView>
     )
 }

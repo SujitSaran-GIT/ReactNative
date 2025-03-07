@@ -13,3 +13,8 @@ With JSX you can write expression inside curly braces. The expressions can be a 
 FlatList
 ------------
 FlatList will iterate all over the data and render the list of the data
+
+Props
+-----------------
+Props / Properties are arguments passed into Components
+Props are passed to components via HTML attributes
