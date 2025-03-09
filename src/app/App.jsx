@@ -11,6 +11,9 @@ import FourthAssignment from "../assignment/FourthAssignment"
 import Props from "./Props"
 import FifthAssignment from "../assignment/FifthAssignment"
 import ConditionalRendering from "./ConditionalRendering"
+import UseStateHook from "./UseStateHook"
+import ChangeBackgroundColor from "../assignment/ChangeBackgroundColor"
+import ToDoList from "../assignment/ToDoList"
 
 
 const App = () => {
@@ -29,7 +32,10 @@ const App = () => {
             // <FourthAssignment />
             // <Props/>
             // <FifthAssignment/>
-            <ConditionalRendering/>
+            // <ConditionalRendering/>
+            // <UseStateHook/>
+            // <ChangeBackgroundColor/>
+            <ToDoList/>
         // </SafeAreaView>
     )
 }

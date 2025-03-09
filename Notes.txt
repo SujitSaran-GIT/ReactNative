@@ -22,3 +22,16 @@ Props are passed to components via HTML attributes
 Conditional Rendering 
 -------------------------
 Conditional Rendering in React Native works the same way as conditional works in JavaScript. You can use JavaScrpt operators like if & or Ternary to represent the current state and let React Native update the UI to match them
+
+state
+----------
+State is abuilt in React obejct that is used to contain data or information about the component. A component's state can change over time, whenever it changes, the component re-renders
+
+Hooks
+---------------
+Hooks are a new addition in react 16.8. They let you use state and other React features without writing a class.
+
+useState() Hooks
+----------------
+sueState() hook allows us to track state in a functional component. State generally refers to data or properties that need to be tracking in an application
+
