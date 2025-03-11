@@ -35,3 +35,6 @@ useState() Hooks
 ----------------
 sueState() hook allows us to track state in a functional component. State generally refers to data or properties that need to be tracking in an application
 
+useEffect() Hooks
+--------------------
+useEffect() hook allows you to perform side effects in your components. Some examples of side effects are : Fetching data, directly updating the dom
