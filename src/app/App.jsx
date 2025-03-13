@@ -16,6 +16,7 @@
 // import ToDoList from "../assignment/ToDoList"
 // import UseEffectHook from "./UseEffectHook"
 
+import CustomHookChallenge from "../assignment/CustomHookChallenge"
 import MainComponent from "../PropDrilling/MainComponent"
 
 
@@ -46,7 +47,8 @@ const App = () => {
             // <ToDoList/>
             // <UseEffectHook/>
             // <UseReducerHook/>
-            <MainComponent/>
+            // <MainComponent/>
+            <CustomHookChallenge/>
         // </SafeAreaView>
     )
 }
