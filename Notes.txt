@@ -43,3 +43,64 @@ useReducer() Hooks
 ---------------------
 useReducer is a hook that is similar to useState, but it is designed for more complex state objects or state transitions that involves multiple sub-values. It allows you to manage state in a functional, Immutable way.
 
+What is Prop Drilling?
+-------------------------
+Prop Drilling is the process of passing data (props) from a parent component to a deeply nested child component through multiple intermediary components, even if they don’t need that data themselves. This can make the code harder to maintain and debug.
+
+Real-Life Example: A Family Messenger
+Imagine a grandfather wants to send a message to his grandson through a chain of family members.
+
+Scenario:
+--------------
+Grandfather → Father → Son (Grandson)
+The Grandfather has a message: "Here’s $10 for you!"
+He tells the Father, who doesn’t need the money but must pass it along.
+The Father tells the Son (Grandson) who finally receives the message.
+
+React Example: Prop Drilling
+-----------------------------
+const Grandfather = () => {
+  const message = "Here’s $10 for you!"; 
+  return <Father message={message} />;
+};
+
+const Father = ({ message }) => {
+  return <Son message={message} />;
+};
+
+const Son = ({ message }) => {
+  return <p>Grandfather says: {message}</p>;
+};
+
+export default Grandfather;
+
+🔹 Problem: The Father component doesn’t need the message, but it still has to pass it down. If the component tree grows, this becomes messy.
+
+Solution: Context API (Avoiding Prop Drilling)
+-------------------------------------------------
+Instead of passing props manually, we use React Context API to make the data available globally.
+
+import { createContext, useContext } from "react";
+
+const MessageContext = createContext();
+
+const Grandfather = () => {
+  return (
+    <MessageContext.Provider value="Here’s $10 for you!">
+      <Father />
+    </MessageContext.Provider>
+  );
+};
+
+const Father = () => <Son />;
+
+const Son = () => {
+  const message = useContext(MessageContext);
+  return <p>Grandfather says: {message}</p>;
+};
+
+export default Grandfather;
+
+useContext() Hooks
+-----------------------
+React context is a way to manage state globally. It can be used together with the useState hook to share state between deeply nested components more easily then with useState alone

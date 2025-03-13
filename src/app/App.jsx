@@ -16,7 +16,12 @@
 // import ToDoList from "../assignment/ToDoList"
 // import UseEffectHook from "./UseEffectHook"
 
-import UseReducerHook from "./UseReducerHook"
+import MainComponent from "../PropDrilling/MainComponent"
+
+
+
+
+// import UseReducerHook from "./UseReducerHook"
 
 
 const App = () => {
@@ -40,7 +45,8 @@ const App = () => {
             // <ChangeBackgroundColor/>
             // <ToDoList/>
             // <UseEffectHook/>
-            <UseReducerHook/>
+            // <UseReducerHook/>
+            <MainComponent/>
         // </SafeAreaView>
     )
 }
