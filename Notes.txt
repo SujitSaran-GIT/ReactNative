@@ -38,3 +38,8 @@ sueState() hook allows us to track state in a functional component. State genera
 useEffect() Hooks
 --------------------
 useEffect() hook allows you to perform side effects in your components. Some examples of side effects are : Fetching data, directly updating the dom
+
+useReducer() Hooks
+---------------------
+useReducer is a hook that is similar to useState, but it is designed for more complex state objects or state transitions that involves multiple sub-values. It allows you to manage state in a functional, Immutable way.
+

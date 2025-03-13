@@ -14,7 +14,9 @@
 // import UseStateHook from "./UseStateHook"
 // import ChangeBackgroundColor from "../assignment/ChangeBackgroundColor"
 // import ToDoList from "../assignment/ToDoList"
-import UseEffectHook from "./UseEffectHook"
+// import UseEffectHook from "./UseEffectHook"
+
+import UseReducerHook from "./UseReducerHook"
 
 
 const App = () => {
@@ -37,7 +39,8 @@ const App = () => {
             // <UseStateHook/>
             // <ChangeBackgroundColor/>
             // <ToDoList/>
-            <UseEffectHook/>
+            // <UseEffectHook/>
+            <UseReducerHook/>
         // </SafeAreaView>
     )
 }
