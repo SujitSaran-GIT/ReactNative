@@ -120,3 +120,5 @@ Dynamic routes are a feature that allows you to create routes with variable segm
 Zustand
 ---------------
 Zustand is a small, fast, and flexible state management library for React applications. It was created to simplify the management of state in React apps, offering a more straight forward alternative to more complex solutions like Redux
+
+FINALLY REACT NATIVE COMPLETED
