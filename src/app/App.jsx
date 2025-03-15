@@ -23,6 +23,7 @@ import MainTailwind from "../Tailwindcss/MainTailwind"
 import '../../global.css'
 // import MainRouter from "../ExpoRouter/MainRouter"
 import { Link } from "expo-router"
+import Zustand from "./Zustand"
 // import { View } from "react-native"
 
 
@@ -56,12 +57,13 @@ const App = () => {
         // <MainComponent/>
         // <CustomHookChallenge/>
         // <MainTailwind/>
-        <View>
-            <Text>Welcome to the Main Screen</Text>
-            <Link href="/Home">Go to Home</Link>
-            <Link href="/Contact">Go to Contact</Link>
-            <Link href="/About">Go to About</Link>
-        </View>
+        // <View>
+        //     <Text>Welcome to the Main Screen</Text>
+        //     <Link href="/Home">Go to Home</Link>
+        //     <Link href="/Contact">Go to Contact</Link>
+        //     <Link href="/About">Go to About</Link>
+        // </View>
+        <Zustand/>
         // </SafeAreaView>
     )
 }

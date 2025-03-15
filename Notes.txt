@@ -116,3 +116,7 @@ navigation is how users move from one part of an app or website to another. It h
 Dynamic Routes
 -----------------
 Dynamic routes are a feature that allows you to create routes with variable segments. This is useful for handling different paths based on dynamic data, such as user IDs, product IDs, or other parameters
+
+Zustand
+---------------
+Zustand is a small, fast, and flexible state management library for React applications. It was created to simplify the management of state in React apps, offering a more straight forward alternative to more complex solutions like Redux
