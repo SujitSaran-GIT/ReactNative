@@ -1,4 +1,4 @@
-// import { ScrollView, Text, View } from "react-native"
+import { ScrollView, Text, View } from "react-native"
 // import SecondAssignment from "../assignment/SecondAssignment"
 // import Expression from "./Expression"
 // import ThirdAssignment from "../assignment/ThirdAssignment"
@@ -18,6 +18,12 @@
 
 import CustomHookChallenge from "../assignment/CustomHookChallenge"
 import MainComponent from "../PropDrilling/MainComponent"
+import MainTailwind from "../Tailwindcss/MainTailwind"
+
+import '../../global.css'
+// import MainRouter from "../ExpoRouter/MainRouter"
+import { Link } from "expo-router"
+// import { View } from "react-native"
 
 
 
@@ -36,19 +42,26 @@ const App = () => {
         //         <ThirdAssignment />
         //     <Styles/> 
         //     </ScrollView>
-            // <DataList/>
-            // <ArrayOfObjects/>
-            // <FourthAssignment />
-            // <Props/>
-            // <FifthAssignment/>
-            // <ConditionalRendering/>
-            // <UseStateHook/>
-            // <ChangeBackgroundColor/>
-            // <ToDoList/>
-            // <UseEffectHook/>
-            // <UseReducerHook/>
-            // <MainComponent/>
-            <CustomHookChallenge/>
+        // <DataList/>
+        // <ArrayOfObjects/>
+        // <FourthAssignment />
+        // <Props/>
+        // <FifthAssignment/>
+        // <ConditionalRendering/>
+        // <UseStateHook/>
+        // <ChangeBackgroundColor/>
+        // <ToDoList/>
+        // <UseEffectHook/>
+        // <UseReducerHook/>
+        // <MainComponent/>
+        // <CustomHookChallenge/>
+        // <MainTailwind/>
+        <View>
+            <Text>Welcome to the Main Screen</Text>
+            <Link href="/Home">Go to Home</Link>
+            <Link href="/Contact">Go to Contact</Link>
+            <Link href="/About">Go to About</Link>
+        </View>
         // </SafeAreaView>
     )
 }

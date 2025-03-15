@@ -104,3 +104,15 @@ export default Grandfather;
 useContext() Hooks
 -----------------------
 React context is a way to manage state globally. It can be used together with the useState hook to share state between deeply nested components more easily then with useState alone
+
+Expo Router
+----------------
+Expo Router is a tool designed to simplify navigation in React Native apps built with expo.
+
+Naviagtion 
+----------------
+navigation is how users move from one part of an app or website to another. It helps users find what they need by providing links, buttons, or menus.
+
+Dynamic Routes
+-----------------
+Dynamic routes are a feature that allows you to create routes with variable segments. This is useful for handling different paths based on dynamic data, such as user IDs, product IDs, or other parameters
